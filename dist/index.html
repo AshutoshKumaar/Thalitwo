@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Import Font-awsome Cdn -->
+  <script src="https://kit.fontawesome.com/d3c891b018.js" crossorigin="anonymous"></script>
+  <!-- Import Style -->
+  <link rel="stylesheet" href="style.css">
+  <title>Thali</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <!-- Navbar-Section-Start -->
+  <nav class='bg-[#141414] relative flex flex-row items-center px-5 justify-around h-[100px] yantramanav'>
+    <div class='hidden md:block'>
+      <ul class='flex flex-row items-start text-white uppercase'>
+        <li class='text-sm font-[300] ml-5 cursor-pointer hover:text-[#F7B759] duration-100 ease-in-out'>Home</li>
+        <li class='text-sm font-[300] ml-10 cursor-pointer hover:text-[#F7B759] duration-100 ease-in-out'>About us</li>
+        <li class='text-sm font-[300] ml-10 cursor-pointer hover:text-[#F7B759] duration-100 ease-in-out'>Our Menu</li>
+        <li class='text-sm font-[300] ml-10 cursor-pointer hover:text-[#F7B759] duration-100 ease-in-out'>Gallery</li>
+      </ul>
+    </div>
+    <div
+      class='absolute rounded-b-[50px] bg-[#141414] shadow-md top-[15px] h-[80px] md:h-[110px] py-1 px-5 left-[1/2]  border-[#F7B759] border-x-[2px]'>
+      <div class='w-[80px] md:w-[130px]'>
+        <img src='./assest/logo 1.png' alt="logo" class='mt-2 w-full' />
+      </div>
+    </div>
+
+    <div class='w-[200px] ml-[400px] hidden md:block'>
+      <ul class='flex flex-row items-center justify-between text-white uppercase'>
+        <li class='text-sm font-[300]  cursor-pointer hover:text-[#F7B759] duration-100 ease-in-out'>Catering</li>
+        <li class='text-sm font-[300]  cursor-pointer hover:text-[#F7B759] duration-100 ease-in-out'>Contact</li>
+      </ul>
+
+    </div>
+    <div>
+      <ul class='hidden md:flex flex-row items-start'>
+        <li class='p-3 bg-[#313131] mx-2 rounded-full cursor-pointer group hover:bg-[#f7b759] ease-in-out duration-100'>
+          <img src="./assest/Heart.png" alt="Heart"
+            class="group-hover:filter group-hover:brightness-0 group-hover:invert">
+        </li>
+        <li
+          class='p-3 bg-[#313131] mx-2 rounded-full relative cursor-pointer group hover:bg-[#f7b759] ease-in-out duration-100'>
+          <img src="./assest/Cart.png" alt="Cart"
+            class="group-hover:filter group-hover:brightness-0 group-hover:invert">
+          <div
+            class="absolute top-0 right-0 bg-[#F7B759] text-white text-xs rounded-full h-5 w-5 flex items-center justify-center transform translate-x-1/2 -translate-y-1/2">
+            1
+          </div>
+        </li>
+        <li class='p-3 bg-[#313131] mx-2 rounded-full cursor-pointer group hover:bg-[#f7b759] ease-in-out duration-100'>
+          <img src="./assest/User.png" alt="User"
+            class="group-hover:filter group-hover:brightness-0 group-hover:invert">
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!-- Navbar-Section-End -->
+
+  <!--Hero-Section-Start -->
+  <div
+    class="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] bg-slate-900 bg-[url('./assest/Mask.png')] bg-cover bg-center">
+    <div class="w-full sm:w-[900px] px-10 py-20 sm:p-36">
+      <div class="flex flex-row justify-start items-center mb-2">
+        <p class="w-[30px] md:w-[50px] h-[2px] bg-[#D19130]"></p>
+        <p class="text-[14px] md:text-[18px] lg:text-[20px] ml-3 md:ml-5 text-white font-light uppercase yantramanav">
+          Get <span class="text-[#F7B759]">20%</span> off First Booking
+        </p>
+      </div>
+      <div>
+        <h3
+          class="text-white text-[32px] md:text-[50px] lg:text-[80px] font-[600] leading-[40px] md:leading-[60px] lg:leading-[80px] yeseva-one">
+          Flavors Inspired<br />by the Seasons
+        </h3>
+      </div>
+      <p
+        class="text-[14px] md:text-[16px] font-[500] text-white leading-[30px] md:leading-[50px] lg:leading-[70px] mt-2 md:mt-4 urbanist">
+        Come with family & feel the joy of Indian food.
+      </p>
+
+      <div class="mt-5">
+        <button
+          class="relative bg-[#D19130] text-white py-3 px-6 border-[1px] border-double border-slate-600 text-sm md:text-base uppercase font-semibold shadow-lg transition-transform duration-300 ease-in-out hover:translate-y-[-2px] hover:shadow-2xl hover:bg-[#D19130]">
+          Book A Table
+        </button>
+      </div>
+
+    </div>
+  </div>
+  <!-- Section-one -->
+  <div>
+    <div class="bg-[#171819] p-6 md:p-16 relative">
+      <section class="text-center">
+        <div class="p-5">
+          <p class="uppercase text-[#F7B759] mb-3 font-[500] text-[16px] md:text-[18px] tracking-wider yantramanav">Who
+            we are</p>
+          <h2 class="text-[30px] md:text-[65px] text-[#fff] leading-snug md:leading-10 font-[400] yeseva-one">Welcome to
+            Thali</h2>
+        </div>
+        <!-- Down-Line -->
+        <div class="flex flex-row justify-center items-center">
+          <div class="w-16 h-[1px] bg-[#f7b759] mr-[2px]"></div>
+          <div class="w-4 h-4 border-[#f7b759] border-[1px] rotate-45 flex flex-col justify-center items-center">
+            <div class="w-2 h-2 bg-[#f7b759]">
+
+            </div>
+          </div>
+          <div class="w-16 h-[1px] bg-[#f7b759] ml-[2px]"></div>
+        </div>
+        <div class="w-full md:w-[800px] mx-auto my-5">
+          <p class="text-[#fff] text-[14px] md:text-[16px] urbanist">
+            Curabitur tempor elit in sodales scelerisque. Donec eget eros ac diam gravida sodales et egestas risus.
+            Praesent non purus lectus. Duis iaculis et orci eget dapibus. Nulla ipsum risus, lobortis quis lorem nec,
+            ornare viverra felis. Nunc non accumsan mauris.
+          </p>
+        </div>
+      </section>
+
+      <section class="mt-8 md:mt-16">
+        <div class="flex flex-col md:flex-row justify-between w-full md:w-[1000px] mx-auto">
+          <div class="w-full md:w-[300px] h-auto md:h-[500px] mb-6 md:mb-0">
+            <p class="text-[#fff] text-[14px] md:text-[16px] leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus pretium lectus, ut mollis libero
+              efficitur ut. Nam sodales aliquet sapien. In lacinia lacinia dignissim. Ut eu est a odio porttitor
+              pharetra. In eu finibus massa. Class aptent taciti sociosqu ad litora torquent per.
+            </p>
+            <div class="my-5 md:my-10">
+              <button
+                Class="outline-double py-2 px-6 uppercase outline-[#D19130] text-[#D19130] cursor-pointer hover:bg-[#D19130] hover:text-white duration-100 ease-in-out">
+                Book Now
+              </button>
+            </div>
+
+            <div class="mt-8 md:mt-[54px]">
+              <img src="assest/video.png" alt="Video-img" class="h-[200px] md:h-full mx-auto md:mx-0" />
+            </div>
+          </div>
+          <div class="w-full md:w-[300px] h-auto md:h-[500px] mb-6 md:mb-0">
+            <img src="assest/restaurant.png" alt="Restaurant" class="w-full h-full object-cover" />
+          </div>
+          <div class="w-full md:w-[300px] h-[500px] border-[1px] border-[#D19130] relative">
+            <div
+              class="w-full md:w-[330px] h-auto md:h-[460px] border-[1px] border-[#D19130] absolute top-4 left-[-16px] hidden md:block">
+            </div>
+            <div class="text-[#fff] pt-10">
+              <div class="text-center my-2">
+                <h4 class="py-1 text-2xl yantramanav">Lunch Time</h4>
+                <p class="text-sm text-[#E3E2E2] py-1 urbanist">Monday to Sunday</p>
+                <p class="text-sm text-[#E3E2E2] py-1 urbanist"> 11.00 am - 2.30pm</p>
+              </div>
+              <div class="text-center my-2">
+                <h4 class="py-1 text-2xl yantramanav">Dinner Time</h4>
+                <p class="text-sm text-[#E3E2E2] py-1 urbanist">Monday to Sunday</p>
+                <p class="text-sm text-[#E3E2E2] py-1 urbanist"> 11.00 am - 2.30pm</p>
+              </div>
+
+              <div class="flex flex-row justify-center items-center">
+                <div class="w-16 h-[1px] bg-[#f7b759] mr-[2px]"></div>
+                <div class="w-4 h-4 border-[#f7b759] border-[1px] rotate-45 flex flex-col justify-center items-center">
+                  <div class="w-2 h-2 bg-[#f7b759]">
+
+                  </div>
+                </div>
+                <div class="w-16 h-[1px] bg-[#f7b759] ml-[2px]"></div>
+              </div>
+              <div class="text-center my-2">
+                <h4 class="py-1 text-2xl yantramanav">Contact Us</h4>
+                <p class="text-sm text-[#E3E2E2] py-1 w-[200px] mx-auto urbanist">Marlborough Street, Dublin DO1 W207
+                </p>
+                <p class="text-sm text-[#E3E2E2] py-1 urbanist">+80 (400) 123 4567</p>
+                <p class="text-sm text-[#E3E2E2] py-1 urbanist">info@thali.com</p>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex flex-wrap items-center justify-between w-full md:w-[1000px] mx-auto p-5 md:p-10">
+          <div class="text-center w-1/2 md:w-auto mb-6 md:mb-0">
+            <p class="text-[36px] md:text-[48px] text-[#fff]">150+</p>
+            <p class="text-[#F7B759] uppercase font-[300] text-[12px] md:text-[16px]">daily order</p>
+          </div>
+          <div class="text-center w-1/2 md:w-auto mb-6 md:mb-0">
+            <p class="text-[36px] md:text-[48px] text-[#fff]">100+</p>
+            <p class="text-[#F7B759] uppercase font-[300] text-[12px] md:text-[16px]">special dishes</p>
+          </div>
+          <div class="text-center w-1/2 md:w-auto mb-6 md:mb-0">
+            <p class="text-[36px] md:text-[48px] text-[#fff]">30+</p>
+            <p class="text-[#F7B759] uppercase font-[300] text-[12px] md:text-[16px]">expert chef</p>
+          </div>
+          <div class="text-center w-1/2 md:w-auto">
+            <p class="text-[36px] md:text-[48px] text-[#fff]">10+</p>
+            <p class="text-[#F7B759] uppercase font-[300] text-[12px] md:text-[16px]">awards won</p>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="absolute right-3 top-8 w-[60px] md:w-[150px]">
+        <img src="assest/Towel.png" alt="Towel-background" class="w-full z-0" />
+      </div>
+      <div class="absolute w-[60px] md:w-[200px] bottom-10 left-4">
+        <img src="assest/Chili.png" alt="Chilli-background" class="w-full" />
+      </div>
+    </div>
+  </div>
+  <!-- Section-Two -->
+  <div>
+    <div class="bg-[#171819] px-4 md:px-0">
+      <section class="text-center">
+        <div class="p-5">
+          <p class="uppercase text-[#F7B759] mb-3 font-[400] text-[16px] md:text-[20px] yantramanav">
+            Delightful Menu
+          </p>
+          <h2 class="text-[36px] md:text-[60px] text-[#fff] leading-10 font-[400] yeseva-one">
+            Special Menu
+          </h2>
+        </div>
+        <!-- Line -->
+        <div>
+          <div class="flex flex-row justify-center items-center">
+            <div class="w-16 h-[1px] bg-[#f7b759] mr-[2px]"></div>
+            <div class="w-4 h-4 border-[#f7b759] border-[1px] rotate-45 flex flex-col justify-center items-center">
+              <div class="w-2 h-2 bg-[#f7b759]">
+
+              </div>
+            </div>
+            <div class="w-16 h-[1px] bg-[#f7b759] ml-[2px]"></div>
+          </div>
+        </div>
+      </section>
+      <section class="py-10">
+        <div class="w-full md:w-[1000px] mx-auto flex flex-col md:flex-row gap-8 md:gap-0 justify-between items-center">
+          <div
+            class="w-[280px] md:w-[300px] group border-[1px] rounded-[100px] border-[#F7B759] hover:border-none hover:bg-[#2B2C2D] duration-100 ease-in-out cursor-pointer p-4 md:p-0">
+            <div
+              class="w-[200px] md:w-[250px] h-[200px] md:h-[250px] rounded-full border-4 mx-auto border-slate-400 group-hover:border-yellow-500 my-5">
+              <img src='./assest/BreakFast.png' alt="Breakfast" class="w-full h-full rounded-full object-cover" />
+            </div>
+            <div class="text-center">
+              <p class="text-[24px] md:text-[28px] text-[#fff] font-[500] urbanist">
+                Breakfast
+              </p>
+            </div>
+            <div class="text-center my-4 md:my-8">
+              <button
+                class="px-3 md:px-4 py-2 border-y-[1px] border-[#F7B759] font-[300] uppercase text-[#D19130] text-[12px] md:text-[14px] urbanist">
+                View Menu
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-[280px] md:w-[300px] group border-[1px] rounded-[100px] border-[#F7B759] hover:border-none hover:bg-[#2B2C2D] duration-100 ease-in-out cursor-pointer p-4 md:p-0">
+            <div
+              class="w-[200px] md:w-[250px] h-[200px] md:h-[250px] rounded-full border-4 mx-auto border-slate-400 my-5 group-hover:border-yellow-500">
+              <img src='./assest/lauch.png' alt="Launch" class="w-full h-full rounded-full object-cover" />
+            </div>
+            <div class="text-center">
+              <p class="text-[24px] md:text-[28px] text-[#fff] font-[500] urbanist">
+                Lunch
+              </p>
+            </div>
+            <div class="text-center my-4 md:my-8">
+              <button
+                class="px-3 md:px-4 py-2 border-y-[1px] border-[#F7B759] font-[300] uppercase text-[#D19130] text-[12px] md:text-[14px] urbanist">
+                View Menu
+              </button>
+            </div>
+          </div>
+          <div
+            class="w-[280px] md:w-[300px] group border-[1px] rounded-[100px] border-[#F7B759] hover:border-none hover:bg-[#2B2C2D] duration-100 ease-in-out cursor-pointer p-4 md:p-0">
+            <div
+              class="w-[200px] md:w-[250px] h-[200px] md:h-[250px] rounded-full border-4 mx-auto border-slate-400 my-5 group-hover:border-yellow-500">
+              <img src='./assest/dinner.png' alt="Dinner" class="w-full h-full rounded-full object-cover" />
+            </div>
+            <div class="text-center">
+              <p class="text-[24px] md:text-[28px] text-[#fff] font-[500] urbanist">
+                Dinner
+              </p>
+            </div>
+            <div class="text-center my-4 md:my-8">
+              <button
+                class="px-3 md:px-4 py-2 border-y-[1px] border-[#F7B759] font-[300] uppercase text-[#D19130] text-[12px] md:text-[14px] urbanist">
+                View Menu
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <!--Section-Three -->
+  <div class='py-5'>
+    <section
+      class='bg-[#D19130] w-[90%] md:w-[1020px] mx-auto h-auto md:h-[500px] rounded-xl flex flex-col md:flex-row justify-between items-center my-5'>
+      <div class='w-full md:w-[600px] text-left ml-0 md:ml-10 p-5 md:p-0'>
+        <p class='uppercase text-[#fff] text-[16px] font-[400] leading-2 yantramanav'>why choose us</p>
+        <h3 class='text-[55px] text-[#fff] leading-[70px] yeseva-one'>Catering</h3>
+        <div>
+          <div class="flex flex-row justify-start items-center">
+            <div class="w-16 h-[1px] bg-[#fff] mr-[2px]"></div>
+            <div class="w-4 h-4 border-[#fff] border-[1px] rotate-45 flex flex-col justify-center items-center">
+              <div class="w-2 h-2 bg-[#fff]">
+
+              </div>
+            </div>
+            <div class="w-16 h-[1px] bg-[#fff] ml-[2px]"></div>
+          </div>
+        </div>
+        <p class='text-[14px] my-5 text-[#fff] urbanist'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Vivamus maximus pretium lectus, ut mollis libero efficitur ut. Nam sodales aliquet sapien. In lacinia lacinia
+          dignissim. Ut eu est a odio porttitor pharetra. In eu finibus massa.</p>
+        <div class="my-5">
+          <button
+            class="bg-white py-2 px-4 uppercase border-[1px] border-yellow-500 border-double shadow-lg transform transition-transform hover:scale-105 text-[#D19130] text-sm">
+            find out more
+          </button>
+        </div>
+
+      </div>
+      <div class='h-[420px] mt-20'>
+        <img src='./assest/Group.png' alt="Chef-img" class='w-full h-full' />
+      </div>
+    </section>
+  </div>
+  <!-- Section-Four -->
+  <div class="py-5">
+    <section class="text-center">
+      <div class="p-5">
+        <p class="uppercase text-[#F7B759] mb-3 font-[400]">
+          food category
+        </p>
+        <h2 class="text-[30px] md:text-[60px] text-[#fff] leading-10 font-[400]">
+          Delicious Category
+        </h2>
+      </div>
+      <div>
+        <!-- Line -->
+        <div>
+          <div class="flex flex-row justify-center items-center">
+            <div class="w-16 h-[1px] bg-[#f7b759] mr-[2px]"></div>
+            <div class="w-4 h-4 border-[#f7b759] border-[1px] rotate-45 flex flex-col justify-center items-center">
+              <div class="w-2 h-2 bg-[#f7b759]">
+
+              </div>
+            </div>
+            <div class="w-16 h-[1px] bg-[#f7b759] ml-[2px]"></div>
+          </div>
+          <!-- <img src={LineShape} alt="Shape" class="mx-auto" /> -->
+        </div>
+    </section>
+    <section class="w-full md:w-[1000px] mx-auto py-10">
+      <div class="your-carousel">
+        <!-- Slide 1 -->
+        <div>
+          <div
+            class="group border-2 border-[#444445] hover:border-[#F7B759] ease-in-out duration-75 w-full p-3 rounded-2xl cursor-pointer">
+            <h3 class="text-[#fff] font-semibold text-[20px] group-hover:text-[#F7B759] duration-75 ease-in-out">Veg
+              Starters</h3>
+            <p class="text-[#D9D9D9] text-[12px] mb-2">Adipisicing elit et molestias possimus.</p>
+            <img src="./assest/Panner.png" alt="Paneer-img" class="w-full" />
+            <div class="flex flex-row justify-between items-center my-3">
+              <div class="text-[#fff] text-[14px] group-hover:text-[#F7B759] ease-in-out duration-75">
+                <p>07 Items +</p>
+              </div>
+              <div class="w-[40px]">
+                <img src="./assest/Vector.png" alt="Vector" class="w-full h-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div>
+          <div
+            class="group border-2 border-[#444445] hover:border-[#F7B759] ease-in-out duration-75 w-full p-3 rounded-2xl cursor-pointer">
+            <h3 class="text-[#fff] font-semibold text-[20px] group-hover:text-[#F7B759] duration-75 ease-in-out">Veg
+              Starters</h3>
+            <p class="text-[#D9D9D9] text-[12px] mb-2">Adipisicing elit et molestias possimus.</p>
+            <img src="./assest/Panner.png" alt="Paneer-img" class="w-full" />
+            <div class="flex flex-row justify-between items-center my-3">
+              <div class="text-[#fff] text-[14px] group-hover:text-[#F7B759] ease-in-out duration-75">
+                <p>07 Items +</p>
+              </div>
+              <div class="w-[40px]">
+                <img src="./assest/Vector.png" alt="Vector" class="w-full h-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div>
+          <div
+            class="group border-2 border-[#444445] hover:border-[#F7B759] ease-in-out duration-75 w-full p-3 rounded-2xl cursor-pointer">
+            <h3 class="text-[#fff] font-semibold text-[20px] group-hover:text-[#F7B759] duration-75 ease-in-out">Veg
+              Starters</h3>
+            <p class="text-[#D9D9D9] text-[12px] mb-2">Adipisicing elit et molestias possimus.</p>
+            <img src="./assest/Panner.png" alt="Paneer-img" class="w-full" />
+            <div class="flex flex-row justify-between items-center my-3">
+              <div class="text-[#fff] text-[14px] group-hover:text-[#F7B759] ease-in-out duration-75">
+                <p>07 Items +</p>
+              </div>
+              <div class="w-[40px]">
+                <img src="./assest/Vector.png" alt="Vector" class="w-full h-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div>
+          <div
+            class="group border-2 border-[#444445] hover:border-[#F7B759] ease-in-out duration-75 w-full p-3 rounded-2xl cursor-pointer">
+            <h3 class="text-[#fff] font-semibold text-[20px] group-hover:text-[#F7B759] duration-75 ease-in-out">Veg
+              Starters</h3>
+            <p class="text-[#D9D9D9] text-[12px] mb-2">Adipisicing elit et molestias possimus.</p>
+            <img src="./assest/Panner.png" alt="Paneer-img" class="w-full" />
+            <div class="flex flex-row justify-between items-center my-3">
+              <div class="text-[#fff] text-[14px] group-hover:text-[#F7B759] ease-in-out duration-75">
+                <p>07 Items +</p>
+              </div>
+              <div class="w-[40px]">
+                <img src="./assest/Vector.png" alt="Vector" class="w-full h-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 5 -->
+        <div>
+          <div
+            class="group border-2 border-[#444445] hover:border-[#F7B759] ease-in-out duration-75 w-full p-3 rounded-2xl cursor-pointer">
+            <h3 class="text-[#fff] font-semibold text-[20px] group-hover:text-[#F7B759] duration-75 ease-in-out">Veg
+              Starters</h3>
+            <p class="text-[#D9D9D9] text-[12px] mb-2">Adipisicing elit et molestias possimus.</p>
+            <img src="./assest/Panner.png" alt="Paneer-img" class="w-full" />
+            <div class="flex flex-row justify-between items-center my-3">
+              <div class="text-[#fff] text-[14px] group-hover:text-[#F7B759] ease-in-out duration-75">
+                <p>07 Items +</p>
+              </div>
+              <div class="w-[40px]">
+                <img src="./assest/Vector.png" alt="Vector" class="w-full h-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 6 -->
+
+        <div>
+          <div
+            class="group border-2 border-[#444445] hover:border-[#F7B759] ease-in-out duration-75 w-full p-3 rounded-2xl cursor-pointer">
+            <h3 class="text-[#fff] font-semibold text-[20px] group-hover:text-[#F7B759] duration-75 ease-in-out">Veg
+              Starters</h3>
+            <p class="text-[#D9D9D9] text-[12px] mb-2">Adipisicing elit et molestias possimus.</p>
+            <img src="./assest/Panner.png" alt="Paneer-img" class="w-full" />
+            <div class="flex flex-row justify-between items-center my-3">
+              <div class="text-[#fff] text-[14px] group-hover:text-[#F7B759] ease-in-out duration-75">
+                <p>07 Items +</p>
+              </div>
+              <div class="w-[40px]">
+                <img src="./assest/Vector.png" alt="Vector" class="w-full h-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional slides follow similar structure -->
+      </div>
+    </section>
+
+  </div>
+  <!-- Section-Six -->
+  <div Class="py-10 px-4 md:px-0">
+    <section Class="w-full flex flex-col lg:flex-row">
+      <div Class="w-full lg:w-2/4 h-[400px] lg:h-[800px] relative mb-8 lg:mb-0">
+        <img src='./assest/Mask group.png' alt="Mask-Group"
+          Class="w-full h-full absolute object-cover mix-blend-overlay" />
+        <div Class="z-10 mx-auto lg:ml-40 mt-20 lg:mt-40 p-4">
+          <p Class="uppercase text-[#F7B759] mb-3 font-[500] text-[16px] lg:text-[20px] yantramanav">
+            Our Services
+          </p>
+          <h2 Class="text-[30px] lg:text-[60px] text-[#fff] leading-[40px] lg:leading-[70px] font-[400] yeseva-one">
+            Our Catering Services
+          </h2>
+          <div>
+            <!-- Line-Shape -->
+            <div>
+              <div class="flex flex-row justify-start items-center">
+                <div class="w-16 h-[1px] bg-[#f7b759] mr-[2px]"></div>
+                <div class="w-4 h-4 border-[#f7b759] border-[1px] rotate-45 flex flex-col justify-center items-center">
+                  <div class="w-2 h-2 bg-[#f7b759]">
+
+                  </div>
+                </div>
+                <div class="w-16 h-[1px] bg-[#f7b759] ml-[2px]"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div Class="w-full lg:w-1/4 bg-[#131313] h-[400px] lg:h-[800px] mb-8 lg:mb-0 p-1">
+        <div Class="w-full h-1/2 flex flex-col justify-center items-center">
+          <h3 Class="text-2xl lg:text-3xl font-semibold text-[#fff] mb-5 urbanist">
+            Corporate Events
+          </h3>
+          <p Class="text-[#F2EDED] font-light text-center text-[14px] lg:text-[15px] urbanist">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            maximus pretium lectus, ut mollis libero efficitur.
+          </p>
+          <div Class="mt-8">
+            <button
+              Class="outline-double py-2 px-6 uppercase outline-[#D19130] text-[#D19130] cursor-pointer hover:bg-[#D19130] hover:text-white duration-100 ease-in-out">
+              Book Now
+            </button>
+          </div>
+        </div>
+        <div Class="w-full h-1/2">
+          <img src="assest/Wine.png" alt="wine" Class="w-full h-full" />
+        </div>
+      </div>
+
+
+      <div Class="w-full lg:w-1/4 bg-[#131313] h-[400px] lg:h-[800px] mb-8 lg:mb-0 p-1">
+        <div Class="w-full h-1/2">
+          <img src="assest/Balcony.png" alt="wine" Class="w-full h-full" />
+        </div>
+        <div Class="w-full h-1/2 flex flex-col justify-center items-center">
+          <h3 Class="text-2xl lg:text-3xl font-semibold text-[#fff] mb-5 urbanist">
+            Wedding Events
+          </h3>
+          <p Class="text-[#F2EDED] font-light text-center text-[14px] lg:text-[15px] urbanist">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            maximus pretium lectus, ut mollis libero efficitur.
+          </p>
+          <div Class="mt-8">
+            <button
+              Class="outline-double py-2 px-6 uppercase outline-[#D19130] text-[#D19130] cursor-pointer hover:bg-[#D19130] hover:text-white duration-100 ease-in-out">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div Class="w-full lg:w-1/4 bg-[#131313] h-[400px] lg:h-[800px] p-1">
+        <div Class="w-full h-1/2 flex flex-col justify-center items-center">
+          <h3 Class="text-2xl lg:text-3xl font-semibold text-[#fff] mb-5 urbanist">
+            Birthday Party
+          </h3>
+          <p Class="text-[#F2EDED] font-light text-center text-[14px] lg:text-[15px] urbanist">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            maximus pretium lectus, ut mollis libero efficitur.
+          </p>
+          <div Class="mt-8">
+            <button
+              Class="outline-double py-2 px-6 uppercase outline-[#D19130] text-[#D19130] cursor-pointer hover:bg-[#D19130] hover:text-white duration-100 ease-in-out">
+              Book Now
+            </button>
+          </div>
+        </div>
+        <div Class="w-full h-1/2">
+          <img src='./assest/Garden.png' alt="wine" Class="w-full h-full" />
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Section-Seven -->
+  <div>
+    <div class="p-10 relative">
+      <section class="pb-5">
+        <div class="p-5 text-center">
+          <p class="uppercase text-[#F7B759] mb-3 font-[400] text-[16px] sm:text-[20px] yantramanav">
+            Our food items
+          </p>
+          <h2 class="text-[40px] sm:text-[60px] text-[#fff] leading-10 font-[400] yeseva-one">
+            Delicious Menu
+          </h2>
+        </div>
+        <!-- Line -->
+        <div class="flex flex-row justify-center items-center my-2">
+          <div class="w-16 h-[1px] bg-[#f7b759] mr-[2px]"></div>
+          <div class="w-4 h-4 border-[#f7b759] border-[1px] rotate-45 flex flex-col justify-center items-center">
+            <div class="w-2 h-2 bg-[#f7b759]">
+
+            </div>
+          </div>
+          <div class="w-16 h-[1px] bg-[#f7b759] ml-[2px]"></div>
+        </div>
+      </section>
+
+      <section class="w-full sm:w-[1100px] mx-auto p-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <!-- Item 1 -->
+          <div
+            class="group border-[1px] border-[#6C6B68] p-2 hover:bg-[#F7B759] duration-75 ease-in-out cursor-pointer">
+            <div>
+              <img src="./assest/Chicken-Chilli.png" alt="ChickenChilli" class="w-full" />
+            </div>
+            <div>
+              <h3
+                class="text-[#fff] font-[400] text-[20px] sm:text-[24px] text-center p-1 group-hover:text-[#171819] duration-75 ease-in-out">
+                Chicken Chilli
+              </h3>
+              <p
+                class="text-[#C7C7C7] text-sm sm:text-base font-normal text-center group-hover:text-[#171819] duration-75 ease-in-out">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="flex flex-row justify-center items-center py-1">
+                <span class="text-[#F7B759] mx-1 group-hover:text-[#171819] duration-75 ease-in-out">$12.99</span>
+                <span class="text-[#6C6B68] line-through">$15.99</span>
+              </div>
+              <div class="text-center mt-4 mb-2">
+                <button
+                  class="border-[#f7b759] border-[1px] group-hover:bg-[#171819] group-hover:text-[#fff] duration-75 ease-in-out text-[#F7B759] py-2 px-4 text-sm uppercase">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group border-[1px] border-[#6C6B68] p-2 hover:bg-[#F7B759] duration-75 ease-in-out cursor-pointer">
+            <div>
+              <img src="./assest/Chicken-Chilli.png" alt="ChickenChilli" class="w-full" />
+            </div>
+            <div>
+              <h3
+                class="text-[#fff] font-[400] text-[20px] sm:text-[24px] text-center p-1 group-hover:text-[#171819] duration-75 ease-in-out">
+                Chicken Chilli
+              </h3>
+              <p
+                class="text-[#C7C7C7] text-sm sm:text-base font-normal text-center group-hover:text-[#171819] duration-75 ease-in-out">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="flex flex-row justify-center items-center py-1">
+                <span class="text-[#F7B759] mx-1 group-hover:text-[#171819] duration-75 ease-in-out">$12.99</span>
+                <span class="text-[#6C6B68] line-through">$15.99</span>
+              </div>
+              <div class="text-center mt-4 mb-2">
+                <button
+                  class="border-[#f7b759] border-[1px] group-hover:bg-[#171819] group-hover:text-[#fff] duration-75 ease-in-out text-[#F7B759] py-2 px-4 text-sm uppercase">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group border-[1px] border-[#6C6B68] p-2 hover:bg-[#F7B759] duration-75 ease-in-out cursor-pointer">
+            <div>
+              <img src="./assest/Chicken-Chilli.png" alt="ChickenChilli" class="w-full" />
+            </div>
+            <div>
+              <h3
+                class="text-[#fff] font-[400] text-[20px] sm:text-[24px] text-center p-1 group-hover:text-[#171819] duration-75 ease-in-out">
+                Chicken Chilli
+              </h3>
+              <p
+                class="text-[#C7C7C7] text-sm sm:text-base font-normal text-center group-hover:text-[#171819] duration-75 ease-in-out">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="flex flex-row justify-center items-center py-1">
+                <span class="text-[#F7B759] mx-1 group-hover:text-[#171819] duration-75 ease-in-out">$12.99</span>
+                <span class="text-[#6C6B68] line-through">$15.99</span>
+              </div>
+              <div class="text-center mt-4 mb-2">
+                <button
+                  class="border-[#f7b759] border-[1px] group-hover:bg-[#171819] group-hover:text-[#fff] duration-75 ease-in-out text-[#F7B759] py-2 px-4 text-sm uppercase">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group border-[1px] border-[#6C6B68] p-2 hover:bg-[#F7B759] duration-75 ease-in-out cursor-pointer">
+            <div>
+              <img src="./assest/Chicken-Chilli.png" alt="ChickenChilli" class="w-full" />
+            </div>
+            <div>
+              <h3
+                class="text-[#fff] font-[400] text-[20px] sm:text-[24px] text-center p-1 group-hover:text-[#171819] duration-75 ease-in-out">
+                Chicken Chilli
+              </h3>
+              <p
+                class="text-[#C7C7C7] text-sm sm:text-base font-normal text-center group-hover:text-[#171819] duration-75 ease-in-out">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="flex flex-row justify-center items-center py-1">
+                <span class="text-[#F7B759] mx-1 group-hover:text-[#171819] duration-75 ease-in-out">$12.99</span>
+                <span class="text-[#6C6B68] line-through">$15.99</span>
+              </div>
+              <div class="text-center mt-4 mb-2">
+                <button
+                  class="border-[#f7b759] border-[1px] group-hover:bg-[#171819] group-hover:text-[#fff] duration-75 ease-in-out text-[#F7B759] py-2 px-4 text-sm uppercase">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat similar blocks for more items -->
+        </div>
+      </section>
+
+      <div>
+        <img src="./assest/Onion.png" alt="onion" class="absolute top-0 right-28 sm:right-20 sm:top-8 w-12 sm:w-32" />
+        <img src="./assest/Branch.png" alt="Branch" class="absolute top-24 right-0 w-16 sm:w-32" />
+        <img src="./assest/leaf.png" alt="Leaf" class="absolute bottom-0 left-0 w-16 sm:w-32" />
+      </div>
+    </div>
+  </div>
+  <!-- Section-Eight -->
+  <div class="w-full hidden md:block h-auto my-5 relative bg-transparent">
+    <!-- Background Image with Overlay -->
+    <div class="w-full h-[500px] sm:h-[700px] bg-cover bg-center bg-[url('./assest/Mask-group-3.png')]">
+      <div
+        class="absolute z-10 flex flex-col items-center justify-start w-full h-full text-center text-white bg-black bg-opacity-50">
+        <div class="text-[#fff] w-[90%] sm:w-[50%] mx-auto pt-28">
+          <h3 class="text-[24px] sm:text-[40px] md:text-[60px] leading-[30px] sm:leading-[50px] md:leading-[70px]">
+            The Best Food for the Best Moments
+          </h3>
+          <p class="text-[12px] sm:text-[16px] mt-2 text-[#F2EDED]">
+            Vivamus maximus pretium lectus, ut mollis libero efficitur.
+          </p>
+          <div class="mt-4 sm:mt-8">
+            <button
+              Class="outline-double py-2 px-6 uppercase outline-[#D19130] text-[#D19130] cursor-pointer hover:bg-[#D19130] hover:text-white duration-100 ease-in-out">
+              Book A Table
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reservation Form and Image -->
+    <div
+      class="absolute w-[90%] sm:w-[700px] md:w-[1100px] h-auto z-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mx-auto">
+      <div class="flex flex-col md:flex-row items-center md:items-start">
+        <!-- Reservation Form -->
+        <div class="w-full md:w-[60%] bg-[#0C0B0A] text-center p-5 sm:p-10">
+          <p class="uppercase text-[#F7B759] text-sm font-medium yantramanav">Online Reservation</p>
+          <h2 class="capitalize text-[24px] sm:text-[40px] text-[#fff] yeseva-one">Book A Table</h2>
+
+          <!-- Decorative Line -->
+          <div class="flex justify-center items-center my-2 sm:my-4">
+            <div class="w-10 sm:w-16 h-[1px] bg-[#f7b759]"></div>
+            <div class="w-4 h-4 mx-2 border border-[#f7b759] rotate-45 flex items-center justify-center">
+              <div class="w-2 h-2 bg-[#f7b759]"></div>
+            </div>
+            <div class="w-10 sm:w-16 h-[1px] bg-[#f7b759]"></div>
+          </div>
+
+          <!-- Form Fields -->
+          <div class="space-y-4">
+            <div class="flex flex-col sm:flex-row sm:space-x-4">
+              <input type="text" placeholder="Your Name"
+                class="w-full sm:w-1/2 p-2 bg-[#393A3A] text-white placeholder-white outline-none mb-2 sm:mb-0">
+              <input type="text" placeholder="Your Number"
+                class="w-full sm:w-1/2 p-2 bg-[#393A3A] text-white placeholder-white outline-none">
+            </div>
+            <div class="flex flex-col sm:flex-row sm:space-x-4">
+              <input type="text" placeholder="1 Person"
+                class="w-full sm:w-1/3 p-2 bg-[#393A3A] text-white placeholder-white outline-none mb-2 sm:mb-0">
+              <input type="date" class="w-full sm:w-1/3 p-2 bg-[#393A3A] text-white outline-none mb-2 sm:mb-0">
+              <input type="time" placeholder="8:30 AM"
+                class="w-full sm:w-1/3 p-2 bg-[#393A3A] text-white placeholder-white outline-none">
+            </div>
+            <textarea placeholder="Messages"
+              class="w-full p-2 bg-[#393A3A] text-white placeholder-white outline-none h-[100px]"></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="text-left w-full sm:w-[80%]  mt-4">
+            <button class="bg-[#D19130] py-2 px-4 uppercase outline outline-[#fff] w-full sm:w-auto">
+              Book A Table
+            </button>
+          </div>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full md:w-[40%] mt-5 md:mt-0 h-[480px]  bg-[#D19130]">
+          <img src='./assest/Happy-male.png' alt="Happy Male" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </div>
+
+    <!-- Images  -->
+
+    <img src='./assest/Chili.png' alt="chili-background" class="absolute right-0 rotate-180 w-48 hidden sm:block" />
+    <img src="./assest/Onion.png" alt="Onion-img"
+      class="absolute left-[90px] top-[800px] rotate-90 w-16 sm:w-20 hidden sm:block" />
+  </div>
+  <!-- Section-nine -->
+  <div>
+    <div Class="pt-60 hidden md:block relative">
+      <div Class="p-5 text-center">
+        <p Class="uppercase text-[#F7B759] mb-3 font-[400] yantramanav">
+          Testimonials
+        </p>
+        <h2 Class="text-[60px] text-[#fff] leading-10 font-[400] yeseva-one">
+          What People are Saying
+        </h2>
+      </div>
+      <div class="my-1">
+        <div class="flex flex-row justify-center items-center">
+          <div class="w-16 h-[1px] bg-[#f7b759] mr-[2px]"></div>
+          <div class="w-4 h-4 border-[#f7b759] border-[1px] rotate-45 flex flex-col justify-center items-center">
+            <div class="w-2 h-2 bg-[#f7b759]">
+
+            </div>
+          </div>
+          <div class="w-16 h-[1px] bg-[#f7b759] ml-[2px]"></div>
+        </div>
+      </div>
+      <div Class="flex flex-row w-[1100px] mx-auto my-5">
+        <div Class="w-[250px]  border-2 mx-2 rounded-xl border-[#D19130]  p-5 cursor-pointer">
+          <div Class="bg-[#D19130] w-[50px] h-[50px] rounded-full py-4 px-3">
+            <img src='./assest/Dotted.png' alt="Dotted-alt" />
+          </div>
+          <div>
+            <p Class="text-2xl my-2 text-[#fff] font-[500]">John Doe</p>
+            <div class="my-2 text-yellow-400 text-sm">
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+            </div>
+            <p Class="text-sm text-[#FFFFFF]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dolor
+              magna, feugiat sit amet orci ut, lobortis elementum enim. Vestibulum ultricies convallis sodales. Fusce
+              volutpat, dolor et tempus rhoncus, odio quam imperdiet velit.</p>
+          </div>
+        </div>
+        <div
+          Class="w-[250px] border-2 mx-2 bg-[url('./assest/lady.png')] bg-cover bg-center rounded-xl border-[#D19130] flex flex-col justify-center items-center">
+          <div
+            Class="w-[60px] h-[60px] border-2 border-slate-100 rounded-full flex flex-col justify-center items-center bg-slate-200 bg-opacity-20 cursor-pointer">
+            <img src='./assest/Player.png' alt="player-img" />
+          </div>
+        </div>
+        <div Class="w-[250px]  border-2 mx-2 rounded-xl border-[#D19130] p-5 cursor-pointer">
+          <div Class="bg-[#D19130] w-[50px] h-[50px] rounded-full py-4 px-3">
+            <img src='./assest/Dotted.png' alt="Dotted-alt" />
+          </div>
+          <div>
+            <p Class="text-2xl my-2 text-[#fff] font-[500]">John Doe</p>
+            <div class="my-2 text-yellow-400 text-sm">
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+            </div>
+            <p Class="text-sm text-[#FFFFFF]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dolor
+              magna, feugiat sit amet orci ut, lobortis elementum enim. Vestibulum ultricies convallis sodales. Fusce
+              volutpat, dolor et tempus rhoncus, odio quam imperdiet velit.</p>
+          </div>
+        </div>
+        <div Class="w-[250px]  border-2 mx-2 rounded-xl border-[#D19130] p-5 cursor-pointer">
+          <div Class="bg-[#D19130] w-[50px] h-[50px] rounded-full py-4 px-3">
+            <img src='./assest/Dotted.png' alt="Dotted-alt" />
+          </div>
+          <div>
+            <p Class="text-2xl my-2 text-[#fff] font-[500]">John Doe</p>
+            <div class="my-2 text-yellow-400 text-sm">
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+            </div>
+            <p Class="text-sm text-[#FFFFFF]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dolor
+              magna, feugiat sit amet orci ut, lobortis elementum enim. Vestibulum ultricies convallis sodales. Fusce
+              volutpat, dolor et tempus rhoncus, odio quam imperdiet velit.</p>
+          </div>
+        </div>
+      </div>
+      <img src='./assest/Branch-two.png' alt="Branch" Class="rotate-[360deg] absolute top-44" />
+
+    </div>
+  </div>
+  <!-- Section-Ten -->
+  <div>
+    <div Class="flex flex-col sm:flex-row items-start pt-5">
+      <div Class="w-full md:w-[20%] relative group cursor-pointer mb-1">
+
+        <img src='./assest/Mask-four.png' alt='Mask-four'
+          Class="w-full h-full object-cover transition-transform duration-300 group-hover:opacity-30" />
+
+        <img src='./assest/Insta-icon.png' alt="instagram-icon"
+          Class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+      <div Class="w-full md:w-[20%] relative group cursor-pointer mb-1">
+
+        <img src='./assest/Mask-five.png' alt='Mask-four'
+          Class="w-full h-full object-cover transition-transform duration-300 group-hover:opacity-30" />
+
+        <img src='./assest/Insta-icon.png' alt="instagram-icon"
+          Class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+      <div Class="w-full md:w-[20%] relative group cursor-pointer mb-1">
+
+        <img src='./assest/Mask-six.png' alt='Mask-four'
+          Class="w-full h-full object-cover transition-transform duration-300 group-hover:opacity-30" />
+
+        <img src='./assest/Insta-icon.png' alt="instagram-icon"
+          Class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+      <div Class="w-full md:w-[20%] relative group cursor-pointer mb-1">
+
+        <img src='./assest/Mask-four.png' alt='Mask-four'
+          Class="w-full h-full object-cover transition-transform duration-300 group-hover:opacity-30" />
+
+        <img src='./assest/Insta-icon.png' alt="instagram-icon"
+          Class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+      <div Class="w-full md:w-[20%] relative group cursor-pointer mb-1">
+
+        <img src='./assest/Mask-five.png' alt='Mask-four'
+          Class="w-full h-full object-cover transition-transform duration-300 group-hover:opacity-30" />
+
+        <img src='./assest/Insta-icon.png' alt="instagram-icon"
+          Class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+   <div>
+    <div Class="w-full h-[1500px] md:h-[700px] relative border-t-[1px] border-yellow-600">
+     
+      <img
+        src='./assest/Footer-back.png'
+        alt="footer-back"
+        Class="w-full h-full object-cover absolute mix-blend-overlay"
+      />
+   
+      <div Class="absolute inset-0 bg-black opacity-60"></div>
+      <div Class="absolute w-full md:w-[80%] border-b-[1px] border-dashed flex flex-col md:flex-row justify-between items-center top-10 py-5 px-10 left-1/2 transform -translate-x-1/2">
+        <div>
+          <img src='./assest/f-delivery.png' alt="fast-delivery" />
+        </div>
+        <div>
+          <img src='./assest/s-payment.png' alt="secure-payment" />
+        </div>
+        <div>
+          <img src='./assest/v-menus.png'alt="variety-menu" />
+        </div>
+      </div>
+      <div Class="absolute w-full md:w-[80%] top-[500px] md:top-[240px] left-1/2 transform -translate-x-1/2 flex flex-col md:flex-row justify-between">
+        <div Class="w-full md:w-[25%] p-5 text-center md:text-left">
+          <h3  Class="text-[#fff] text-xl font-[500]">Quick Links</h3>
+          <p Class="w-[40px] h-[2px] bg-yellow-600 my-2 mx-auto sm:mx-0"></p>
+          <ul>
+            <li  Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Home</li>
+            <li  Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">About Us</li>
+            <li  Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Our Menu</li>
+            <li  Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Gallery</li>
+            <li  Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Catering</li>
+            <li  Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Contact</li>
+          </ul>
+        </div>
+
+        <div Class="w-full md:w-[50%] border-x-[1px] border-dashed p-5 flex flex-col justify-center items-center">
+          <div Class="w-[200px] sm:w-[150px] mb-4">
+            <img src='./assest/logo 1.png' alt="Logo" Class="w-full" />
+          </div>
+          <div Class="w-[80%] sm:w-[50%] mx-auto">
+            <div Class="w-full">
+              <input type="Email" placeholder="Enter Your Email.." Class="w-full px-1 py-2 bg-transparent outline-none border-[1px]" />
+            </div>
+            <div Class="w-full">
+              <button Class="w-full bg-[#D19130] uppercase px-1 py-2 my-3 hover:opacity-65 hover:text-[#fff]">Subscribe</button>
+            </div>
+          </div>
+          <div Class="w-[50%] mx-auto my-2">
+            <img src='./assest/social.png' alt="Social-img" Class="mx-auto" />
+          </div>
+        </div>
+        <div Class="w-full md:w-[25%]  py-5 px-10 text-center md:text-left">
+          <h3  Class="text-[#fff] text-xl font-[500]">Catering Services</h3>
+          <p Class="w-[40px] h-[2px] bg-yellow-600 my-2 mx-auto sm:mx-0"></p>
+          <ul>
+            <li Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Corporate Events</li>
+            <li Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Wedding Events</li>
+            <li Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Social Events</li>
+            <li Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Private Events</li>
+            <li Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Birthday Party</li>
+            <li Class="text-sm text-[#fff] my-4 font-[500] cursor-pointer">Anniversary</li>
+          </ul>
+        </div>
+      </div>
+      <div Class="absolute w-full md:w-[80%] bottom-0 border-t-[1px] border-dashed  left-1/2 transform -translate-x-1/2 flex flex-col md:flex-row items-center justify-between px-20 py-5">
+      <div>
+        <p Class="text-[10px] sm:text-sm font-[300] text-[#fff]">Copyright © 2024 Thali. All rights reserved.</p>
+      </div>
+      <div Class="hidden sm:block">
+        <img src='./assest/Payment-icon.png' alt="payment-icon" />
+      </div>
+
+      </div>
+    </div>
+   </div>
+
+
+  </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.your-carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 4,  // Adjust the number of slides to show
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+            }
+          }
+        ]
+      });
+    });
+
+
+
+    // Assign an array of Object
+    const Pmenu = [
+      {
+        title: "Chilli Chicken",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        oldValue: 14.99,
+        newValue: 13.99,
+        productImg: ChickenChilli,
+      },
+      {
+        title: "Chilli Chicken",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        oldValue: 14.99,
+        newValue: 13.99,
+        productImg: ChickenChilli,
+      },
+      {
+        title: "Chilli Chicken",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        oldValue: 14.99,
+        newValue: 13.99,
+        productImg: ChickenChilli,
+      },
+      {
+        title: "Chilli Chicken",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        oldValue: 14.99,
+        newValue: 13.99,
+        productImg: ChickenChilli,
+      },
+    ];
+  </script>
+
+</body>
+
+</html>

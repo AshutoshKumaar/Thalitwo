@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mooli&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Yantramanav:wght@100;300;400;500;700;900&family=Yeseva+One&display=swap');
+
+.yeseva-one {
+    font-family: "Yeseva One", serif;
+}
+.yantramanav {
+    font-family: "Yantramanav", serif;
+}
+.urbanist {
+    font-family: "Urbanist", serif;
+}
+
+body {
+    background-color: #171819;
+    overflow-x: hidden;
+}
+
+/* Slick Slide */
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.overlay-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Adjust overlay color and opacity */
+    z-index: 1;
+  }
+
+
+
